@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 370px;
+  margin-top: 20px;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  .image {
+    width: 100%;
+  }
+}
+
+body {
+  background-image: url("https://searchengineland.com/figz/wp-content/seloads/2020/03/face-mask-SS_1629650935-1920x1080-1.jpg");
+  font-weight: 300;
+}
